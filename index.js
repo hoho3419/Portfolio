@@ -9,7 +9,6 @@ $(document).ready(function(){
         }
     },2500)
     $(window).scroll(function(){
-        console.log($(window).scrollTop())
         // 헤더 등장
         if($(window).scrollTop() >= $('.second_section').offset().top){
             $('.header').css({display: "flex"})
