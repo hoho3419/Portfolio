@@ -4,9 +4,6 @@ body{margin: 0;}
 ul {list-style: none; padding: 0;margin:0;}
 p{margin: 0;}
 a { text-decoration: none; color: inherit;}
-/*     font-family: 'Bungee',cursive;
-    font-family: 'Fredoka One', cursive;
-*/
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -27,8 +24,6 @@ a { text-decoration: none; color: inherit;}
     font-family: 'Noto Sans KR', sans-serif;
 }
 .header{
-    /* display: flex; */
-    /* justify-content: flex-end; */
     display: none;
     position: fixed;
     left: 0;
@@ -208,7 +203,6 @@ a { text-decoration: none; color: inherit;}
     padding: 50px 0;
     box-sizing: border-box;
     font-family: 'ghanachoco';
-    /* font-family: 'Roboto', sans-serif; */
 }
 .first_article{
     text-align: center;
@@ -289,7 +283,6 @@ a { text-decoration: none; color: inherit;}
 }
 .third_section{
     width: 100%;
-    /* height: 70vh; */
     background-color: #eae7de;
     font-family: 'GmarketSansMedium';
     padding: 50px 0;
@@ -344,7 +337,6 @@ a { text-decoration: none; color: inherit;}
 /* 포트폴리오 섹션 시작 */
 .fourth_section{
     width: 100%;
-    /* height: 500px; */
     box-sizing: border-box;
     padding: 50px 0;
     background-color: #008049;
@@ -454,13 +446,11 @@ a { text-decoration: none; color: inherit;}
 }
 .fourth_section .move_btn a:hover{
     background: radial-gradient( #008049 15%, #008049a6 85%);
-    /* background-color: #008049; */
     color: #fff;
 }
 /* 두번째 포트폴리오 */
 .fifth_section{
     width: 100%;
-    /* height: 500px; */
     box-sizing: border-box;
     padding: 50px 0;
     background-color: #bb9f79;
@@ -523,9 +513,6 @@ a { text-decoration: none; color: inherit;}
     transition: all .5s;
     transition-delay: .2s;
 }
-.fifth_section .prot_title{
-
-}
 .fifth_section .prot_info_box .info_box{
     display: flex;
     flex-direction: column;
@@ -571,7 +558,6 @@ a { text-decoration: none; color: inherit;}
 }
 .fifth_section .move_btn a:hover{
     background: radial-gradient( #c9b292 15%, #bb9f79 85%);
-    /* background-color: #008049; */
     color: #fff;
 }
 /* footer */

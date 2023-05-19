@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // 첫번째 애니메이션
-    let introduce = "문제해결을 즐기고 꾸준히 성장하는 Front-End Developer 이철호 입니다."
+    let introduce = "열정적인 자세와 지속적인 학습을 통해 성장하는 신입 개발자 이철호입니다.";
     setTimeout(() =>{
         for(let i =0;i<introduce.length;i++){
             setTimeout(() =>{
